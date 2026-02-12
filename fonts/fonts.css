@@ -1,1 +1,18 @@
-/* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
+/* Подключение вариативного шрифта Inter-V */
+@font-face {
+  font-family: 'Inter-V';
+  src: url('./Inter-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Подключение обычного шрифта Press-S (Regular) */
+@font-face {
+  font-family: 'Press-S';
+  src: url('./PressStart2P-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

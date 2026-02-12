@@ -1,1 +1,26 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* Основные шрифты */
+  --font-primary: 'Inter-V', 'Arial';
+  --font-secondary: 'Press-S', 'Courier New', monospace;
+  
+  /* Значений шрифтов */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --inter-opsz-body: 18; 
+  --inter-width-normal: 100;
+
+/* Настройка основного шрифта */
+   --inter-reg-body: 
+    "wght" var(--font-weight-regular),
+    "wdth" var(--inter-width-normal),
+    "opsz" var(--inter-opsz-body);
+
+    --inter-bol-body: 
+    "wght" var(--font-weight-bold),
+    "wdth" var(--inter-width-normal),
+    "opsz" var(--inter-opsz-body);
+
+/* Переменные основного контента */
+    --body-width: min(700px, 100%); 
+    --body-overlay-ob: #FFFFFF;
+}
